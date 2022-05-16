@@ -340,10 +340,63 @@ footer p:nth-child(2) {
      font-size: 14px;
 }
 
+.skills {
+     background-color: gray;
+     width: 100%;
+     padding: 100px 0;
+}
+
+.card-skills {
+     width: 33%;
+     background: #191919;
+     position: relative;
+     border: 1px solid #fff;
+     height: 350px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+     border-radius: 20px;
+     margin: 20px;
+     overflow: hidden;
+     text-align: center;
+}
+
+.card-skills i {
+     color: #fff;
+
+     font-size: 45px;
+
+     display: block;
+     margin: 25px 0;
+}
+
+.card-skills h5 {
+     color: #f9004d;
+     font-size: 25px;
+     letter-spacing: 2px;
+     margin-bottom: 25px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+
+.card-skills:hover {
+     border: 1px solid #f9004d;
+}
+
 @media only screen and (max-width:70em) {
+     nav ul li {
+padding: 10px;
+     }
      .main {
           display: flex;
           flex-direction: column;
+          justify-content: space-between;
           width: 100%;
      }
 
@@ -361,6 +414,7 @@ footer p:nth-child(2) {
           display: flex;
           flex-direction: column;
           padding-top: 10px;
+          padding-left: 0;
      }
 
      .box {
@@ -372,15 +426,21 @@ footer p:nth-child(2) {
           width: 100%;
      }
 
-     .title h2{
+     .card-skills {
           width: 100%;
      }
-     .content{
+
+     .title h2 {
+          width: 100%;
+     }
+
+     .content {
           text-align: center;
           margin: 0;
           left: 0;
      }
-     footer{
+
+     footer {
           text-align: center;
      }
 }
