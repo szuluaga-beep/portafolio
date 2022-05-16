@@ -8,7 +8,7 @@
 }
 
 .hero {
-     height: 100vh;
+     height: 70vh;
      width: 100%;
      background-color: gray;
 }
@@ -197,12 +197,105 @@ h4 {
      margin-bottom: 45px;
 }
 
-button {
+.button {
      background-color: #f9004d;
      padding: 20px;
      color: white;
      font-size: 20px;
-     border: none;
-     ;
+     border: 2px solid transparent;
      border-radius: 20px;
+     text-decoration: none;
+     font-weight: bold;
+     transition: .4s;
+     -webkit-transition: .4s;
+     -moz-transition: .4s;
+     -ms-transition: .4s;
+     -o-transition: .4s;
+}
+
+.button:hover {
+     transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     background-color: transparent;
+     cursor: pointer;
+     border: 2px solid #f9004d;
+}
+
+.service {
+     background-color: #101010;
+     width: 100%;
+     padding: 100px 0;
+}
+
+.title h2 {
+     color: white;
+     font-size: 75px;
+     width: 1000px;
+     margin: 20px auto;
+     text-align: center;
+     font-weight: bold;
+}
+
+.box {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     min-height: 400px;
+}
+
+.card {
+     width: 33%;
+     background: #191919;
+     position: relative;
+     border: 2px solid #fff;
+     border-radius: 20px;
+     height: 350px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+     margin: 20px;
+     overflow: hidden;
+     text-align: center;
+}
+
+.card:hover {
+     transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     -o-transform: scale(1.1);
+}
+
+.card i {
+     color: #f9004f;
+
+     font-size: 45px;
+
+     display: block;
+     margin: 25px 0;
+}
+
+.card h5 {
+     color: white;
+     font-size: 25px;
+     letter-spacing: 2px;
+     margin-bottom: 25px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+
+.pra {
+     color: white;
+     font-size: 20px;
+     line-height: 30px;
 }
