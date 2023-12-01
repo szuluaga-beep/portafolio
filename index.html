@@ -1,140 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./estilos.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Portafolio</title>
-     <link rel="stylesheet" href="./estilos.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Porta<span>folio</span></h2>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+        <a href="mailto:stevenzuluaga54@gmail.com" class="btn"
+          ><i class="fa-solid fa-envelope"></i>Contact Us</a
+        >
+      </nav>
+      <div class="content" id="Home">
+        <h4>Hello, my name is</h4>
+        <h1>Steven <span>Zuluaga Cortés</span></h1>
+        <h3>I'am Web Developer</h3>
+      </div>
+    </div>
+    <!-- About Section -->
 
-<body>
-     <div class="hero">
-          <nav>
+    <section class="about" id="about">
+      <div class="main">
+        <img src="./images/Foto.jpg" alt="Steven Zuluaga Cortes" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>& Teacher</span></h5>
 
-               <h2 class="logo">
-                    Porta<span>folio</span>
-               </h2>
-               <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#skills">Skills</a></li>
+          <p>
+            I am Front-End web developer. I can provide clean code and pixel
+            perfect design. I also make the website more & more interactive with
+            web animations. A responsive design makes you website accesible to
+            all users, regardless of their device.
+          </p>
+          <a
+            rel="noopener"
+            class="button"
+            href="https://api.whatsapp.com/send/?phone=573137896663&text=Hi&app_absent=0"
+            target="_blank"
+            type="button"
+            ><i class="fa-brands fa-whatsapp"></i>Let's talk</a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="service" id="experience">
+      <div class="title">
+        <h2>Ex <span>perience</span></h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <object data="./images/robot.svg" width="300" height="300"></object>
+          <i class="fa-solid fa-school"></i>
+          <h5>Robotmade</h5>
+          <div class="pra">Web developer</div>
+        </div>
+        <div class="card">
+          <object data="./images/c13.svg" width="300" height="300"></object>
+          <i class="fa-solid fa-school"></i>
+          <h5>Código C13</h5>
+          <div class="pra">C13 coding instructor and tech lead</div>
+        </div>
 
-               </ul>
-               <a href="mailto:stevenzuluaga54@gmail.com" class="btn"><i class="fa-solid fa-envelope"></i>Contact Us</a>
-          </nav>
-          <div class="content" id="Home">
-               <h4>Hello, my name is
-               </h4>
-               <h1>
-
-                    Steven <span>Zuluaga Cortés</span>
-               </h1>
-               <h3>I'am Web Developer</h3>
-
-          </div>
-     </div>
-     <!-- About Section -->
-
-     <section class="about" id="about">
-          <div class="main">
-               <img src="./images/Foto.jpg" alt="Steven Zuluaga Cortes">
-               <div class="about-text">
-                    <h2>About Me</h2>
-                    <h5>Developer <span>& Teacher</span> </h5>
-
-                    <p>
-                         I am Front-End web developer. I can provide clean code and pixel perfect design. I also make
-                         the website more & more interactive with web animations. A responsive design makes you website
-                         accesible to all users, regardless of their device.
-                    </p>
-                    <a rel="noopener" class="button" href="https://api.whatsapp.com/send/?phone=573137896663&text=Hi&app_absent=0"
-                         target="_blank" type="button"><i class="fa-brands fa-whatsapp"></i>Let's talk</a>
-               </div>
-          </div>
-     </section>
-     <div class="service" id="services">
-          <div class="title">
-               <h2>Our <span>Services</span></h2>
-          </div>
-          <div class="box">
-               <div class="card">
-                    <i class="fa-solid fa-server"></i>
-                    <h5>Web Development</h5>
-                    <div class="pra">
-                    The whole process of web application development for your company and web site management.
-                    </div>
-               </div>
-               <div class="card">
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <h5>Business Intelligence</h5>
-                    <div class="pra">
-                    Consulting for the analysis, reporting and processing of information from the company's data, and at the end make
-                    decisions.
-                    </div>
-               </div>
-               <div class="card">
-                    <i class="fa-solid fa-building-shield"></i>
-                    <h5>Cyber Security</h5>
-                    <div class="pra">
-                    Consulting on potential vulnerabilities in enterprise infrastructures
-                    </div>
-               </div>
-          </div>
-     </div>
-     <div class="skills" id="skills">
-          <div class="title">
-               <h2> Skills</h2>
-          </div>
-          <div class="box">
-               <div class="card-skills">
-                    <i class="fa-brands fa-js"></i>
-                    <h5>JavaScript</h5>
-                    
-               </div>
-               <div class="card-skills">
-                    <i class="fa-brands fa-html5"></i>
-                    <h5>Html 5</h5>
-                   
-               </div>
-               <div class="card-skills">
-                    <i class="fa-brands fa-css3"></i><h5>CSS 3</h5>
-                   
-               </div>
-          </div>
-          <div class="box">
-               <div class="card-skills">
-                    <i class="fa-brands fa-react"></i>
-                    <h5>React JS</h5>
-          
-               </div>
-               <div class="card-skills">
-                    <i class="fa-solid fa-database"></i>
-                    <h5>SQL Server</h5>
-          
-               </div>
-               <div class="card-skills">
-               <i class="fa-solid fa-chart-pie"></i>
-                    <h5>Power BI</h5>
-          
-               </div>
-          </div>
-     </div>
-     <footer>
-          <p>Steven Zuluaga Cortés</p>
-          <div class="social">
-               <a  rel="noopener" target="_blank" href="https://www.linkedin.com/in/steven-zuluaga-cort%C3%A9s-797114129/"><i class="fa-brands fa-linkedin"></i>
-               </a>
-               <a rel="noopener" target="_blank" href="https://www.instagram.com/stevenzuluagacortes/"><i class="fa-brands fa-instagram"></i>
-               </a>
-          </div>
-          <p id="end">CopyRight Steven Zuluaga Cortés</p>
-     </footer>
-</body>
-
+        <div class="card">
+          <object data="./images/iudigital.svg" width="300" height="300"></object>
+          <i class="fa-solid fa-school"></i>
+          <h5>IU Digital</h5>
+          <div class="pra">Webmaster</div>
+        </div>
+      </div>
+    </div>
+    <div class="skills" id="skills">
+      <div class="title">
+        <h2>Skills</h2>
+      </div>
+      <div class="box">
+        <div class="card-skills">
+          <i class="fa-brands fa-js"></i>
+          <h5>JavaScript</h5>
+        </div>
+        <div class="card-skills">
+          <i class="fa-brands fa-html5"></i>
+          <h5>Html 5</h5>
+        </div>
+        <div class="card-skills">
+          <i class="fa-brands fa-css3"></i>
+          <h5>CSS 3</h5>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card-skills">
+          <i class="fa-brands fa-react"></i>
+          <h5>React JS</h5>
+        </div>
+        <div class="card-skills">
+          <i class="fa-solid fa-database"></i>
+          <h5>SQL Server</h5>
+        </div>
+        <div class="card-skills">
+          <i class="fa-solid fa-chart-pie"></i>
+          <h5>Power BI</h5>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Steven Zuluaga Cortés</p>
+      <div class="social">
+        <a
+          rel="noopener"
+          target="_blank"
+          href="https://www.linkedin.com/in/steven-zuluaga-cort%C3%A9s-797114129/"
+          ><i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          rel="noopener"
+          target="_blank"
+          href="https://www.instagram.com/stevenzuluagacortes/"
+          ><i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <p id="end">CopyRight Steven Zuluaga Cortés</p>
+    </footer>
+  </body>
 </html>
